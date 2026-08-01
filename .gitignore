@@ -1,6 +1,6 @@
 .env
 razortest.js
 checkintest.js
-client.js
-client2.js
+/client.js
+/client2.js
 node_modules/
