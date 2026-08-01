@@ -26,5 +26,9 @@ app.use('/api/v1/reviews', reviewRouter);
 app.use('/api/v1/chat', chatRouter);
 app.use('/api/v1/contacts', contactRouter);
 
+app.get("/", (req, res) => {
+    res.send("API is running successfully...");
+});
+
 app.use(errorMiddleware)
 export default app;
